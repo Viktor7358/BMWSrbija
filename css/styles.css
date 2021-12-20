@@ -1,0 +1,551 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.indexpg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.40), rgb(0, 0, 0, 0.80)), url("../images/background1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.ixpg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.40), rgb(0, 0, 0, 0.80)), url("../images/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+.x3pg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.40), rgb(0, 0, 0, 0.80)), url("../images/bmwx3pg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}.x4pg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.40), rgb(0, 0, 0, 0.80)), url("../images/bmwx4pg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+ul.menu {
+    list-style-type: none;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+    ul.menu li a {
+        text-decoration: none;
+        color: white;
+        padding: 10px 30px;
+        border: 1px solid transparent;
+        transition: 0.5s ease;
+    }
+
+        ul.menu li a:hover {
+            background-color: darkslategray;
+            color: #177fff;
+            border: 1px solid #177fff;
+        }
+
+    ul.menu li.active a {
+        background-color: darkslategray;
+        color: #177fff;
+        border: 1px solid #177fff;
+    }
+
+
+.logo {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+
+a.logo img {
+    width: 70px;
+}
+
+.linijaispod {
+    border: none;
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 1px;
+    top: 18%;
+    left: 5%;
+}
+
+.reklama1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.reklama1 h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 60px;
+}
+
+.reklama1 h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.button1 {
+    padding-top: 30px;
+}
+
+.btn1 {
+    padding: 15px 90px;
+    color: white;
+    background-color: #177fff;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn1:hover {
+    background-color: #004396;
+    color: white;
+}
+
+.txtbg1 {
+    width: 100%;
+    height: 280%;
+    position: absolute;
+    top: 100%;
+    background-color: #151a1f;
+}
+
+.ispodslike {
+    background-color: white;
+    border: none;
+    width: 100%;
+    height: 3px;
+}
+
+.tb1 {
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+
+
+.tbx3 img {
+    border: 2px solid white;
+    vertical-align: central;
+    float: left;
+}
+
+    .tbx3 img:hover {
+        border: 2px solid #177fff;
+    }
+
+.tbx3 h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+    margin-bottom: 8%;
+    display: inline-block;
+}
+
+.x3btn1 {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 80px;
+    background-color: #3e444a;
+    border: 1px solid white;
+    margin-left: 10%;
+    transition: 0.5s ease;
+}
+
+    .x3btn1:hover {
+        background-color: #004396;
+    }
+
+.tb2 {
+    margin-top: 5%;
+    width: 90%;
+    height: auto;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+
+.tbx4 img {
+    border: 2px solid white;
+    float: left;
+}
+
+.tbx4 td {
+    width: 50%;
+}
+
+    .tbx4 img:hover {
+        border: 2px solid #177fff;
+    }
+
+.tbx4 h1 {
+    color: white;
+    font-size: 50px;
+    margin-left: 10%;
+    display: inline-block;
+    margin-bottom: 8%;
+}
+
+.x4btn1 {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 80px;
+    background-color: #3e444a;
+    border: 1px solid white;
+    margin-left: 10%;
+    transition: 0.5s ease;
+}
+
+    .x4btn1:hover {
+        background-color: #004396;
+    }
+
+.txtbg2 {
+    width: 90%;
+    background-color: none;
+    border: 1px solid black;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 25%;
+    transition: 0.5s ease-in;
+}
+
+.istorijabmw {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.istorijabmw h1 {
+    text-align: center;
+    color: white;
+}
+
+.istorijabmw p {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.txtbg2:hover {
+    width: 95%;
+    border: 3px solid black;
+    margin-left: 2.5%;
+    background-color: #0e1114;
+}
+
+
+.contact {
+    position: absolute;
+    top: 380%;
+    height: 50%;
+    width: 100%;
+    background-color: #333333;
+}
+
+.contacth1 {
+    color: white;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+.email {
+    color: gray;
+    margin-top: 3%;
+    margin-left: 2.5%;
+}
+
+.phone {
+    color: gray;
+    margin-top: 1%;
+    margin-left: 2.5%;
+}
+
+.instagram {
+    margin-left: 2.5%;
+}
+
+.instagram img {
+    width: 5%;
+    margin-top: 3%;
+}
+
+.facebook {
+    margin-left: 3%;
+}
+
+.facebook img {
+    width: 5%;
+    margin-top: 3%;
+}
+
+.translator {
+    float: right;
+    margin-right: 5%;
+}
+
+    .translator a {
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 10px 30px;
+        border: 1px solid black;
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+
+        .translator a:hover {
+            background-color: #0e1114;
+        }
+
+
+
+
+
+
+.gallerypg {
+    background-color: #151a1f;
+}
+
+.gallerybx {
+    background-color: #0e1114;
+    border: 3px solid white;
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+.imgdescleft {
+    width: 35%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #14181c;
+    border-radius: 3%;
+}
+
+.imgdescleft h2 {
+    text-align: left;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+    .imgdescleft h3 {
+        color: #424242;
+        margin-bottom: 5px;
+    }
+
+    .imgdescleft h4 {
+        color: #adadad;
+    }
+
+    .imgdescleft:hover {
+        border: 2px solid #004396;
+        width: 34%;
+        background-color: lightgray;
+    }
+
+.imgdescright {
+    width: 30%;
+    display: inline-block;
+    margin-right: 5%;
+    float: right;
+    margin-top: 5%;
+    transition: 0.5s ease-in-out;
+    border: 2px solid #14181c;
+    border-radius: 3%;
+}
+
+    .imgdescright h2 {
+        text-align: left;
+        font-size: 24px;
+        color: black;
+        margin-bottom: 5px;
+    }
+
+    .imgdescright h3 {
+        color: #424242;
+        margin-bottom: 5px;
+    }
+
+    .imgdescright h4 {
+        color: #adadad;
+    }
+
+    .imgdescright:hover {
+        border: 2px solid #004396;
+        background-color: lightgray;
+        width: 29%;
+        float: right;
+    }
+
+
+.aboutme {
+    background-color: #151a1f;
+}
+
+.aboutmebox {
+    background-color: #0e1114;
+    border: 1px solid white;
+    width: 80%;
+    height: 100%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.aboutmebox p {
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    margin-left: 10%;
+}
+
+    .aboutmebox img {
+        position: center;
+        border: 3px solid #004396;
+        width: 40%;
+        margin-left: 30%;
+        margin-bottom: 10%;
+    }
+
+.podaci {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+}
+
+
+
+.podaci table td {
+    color: white;
+    padding-right: 100px;
+}
+
+.vslova {
+    font-size: 28px;
+}
+
+.mslova {
+    font-size: 18px;
+}
+
+.txtbgix {
+    width: 100%;
+    height: 400%;
+    position: absolute;
+    top: 100%;
+    background-color: #151a1f;
+}
+
+.contactix {
+    position: absolute;
+    top: 450%;
+    height: 50%;
+    width: 100%;
+    background-color: #333333;
+}
+
+.prviix {
+    color: white;
+    font-size: 32px;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.rodjen {
+    color: white;
+    margin-left: 5%;
+    width: 80%;
+    font-size: 18px;
+}
+
+.tablezabmw {
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.tablezabmw table {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.tablezabmw table td {
+    color: white;
+    width: 50%;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.tablezabmw table h1 {
+    font-size: 32px;
+}
+
+.tablezabmw table img {
+    border: 2px solid black;
+}
+
+.tablezabmw2 {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+    .tablezabmw2 table {
+        width: 90%;
+        height: auto;
+        border: 1px solid black;
+    }
+
+        .tablezabmw2 table td {
+            color: white;
+            width: 50%;
+            font-size: 18px;
+            text-align: left;
+            margin-left: 1%;
+            margin-top: 5%;
+        }
+
+        .tablezabmw2 table h1 {
+            font-size: 32px;
+        }
+
+        .tablezabmw2 table img {
+            border: 2px solid black;
+        }
+
+.contact1 {
+    position: absolute;
+    top: 200%;
+    height: 50%;
+    width: 100%;
+    background-color: #333333;
+}
+
+.bmwimg {
+    width: 100%;
+}
